@@ -24,7 +24,7 @@ function App() {
     
     if (result) {
       setGameStatus('won');
-      setWinningLine(result.line);
+      setWinningLine(result.line); 
       
       // Update scores
       setScores(prevScores => ({
